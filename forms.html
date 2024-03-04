@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charser="UTF-8"
+    <meta name="viewport"content="width=device-width,initial-scale=0">
+    <title>STUDENT REGISTRATION</title>
+</head>
+<body>
+<header class="underline">PLEASE FILL OUT THE FOLLOWING FORM</header>   
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+    
+    <label for="Date of birth">Date of birth:</label>
+    <input type="text" id="Date of birth" name="Date of birth" placeholder="Enter your date of birth"><br>
+
+    <fieldset>
+        <legend>Gender:</legend>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="Female">Female</label>
+
+        <input type="radio" id="Prefer not to say" name="gender" value="Prefer not to say">
+        <label for="prefer not to say">Prefer not to say</label>
+    </fieldset>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="Adress" placeholder="Enter your address"><br>
+
+<label for="telephone">Telephone:</label>
+<input type="text" id="Telephone" name="Telephone" placeholder="Enter your telephone number"><br>
+
+<label for="Email address">Email Address</label>
+<input type="text" id="email address" name="email address" placeholder="Enter your email address"><br>
+<div id="email hint">Enter a valid email address.</div><br>
+
+<fieldset>
+    <legend>Courses:</legend>
+    <input type="checkbox" id="web development" name="courses" value="Web development">
+    <label for="web development">Web development</label>
+
+    <input type="checkbox" id="Python" name="courses" value="Python">
+    <label for="Python">Python</label>
+
+    <input type="checkbox" id="Dart with flutter" name="courses" value="dart with flutter">
+    <label for="dart with flutter">Dart with flutter</label>
+</fieldset>
+<button type="Register">Register</button>
+<button type="cancel">Cancel</button>
+</form>
+
+</body>
+</html>
